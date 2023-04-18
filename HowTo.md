@@ -10,9 +10,18 @@
   
 ## - Utilisation de la commande -
 
+Le script prend en entrée un fichier CSV. La disposition du fichier doit être comme cela:
+![image](https://user-images.githubusercontent.com/122784539/232778816-89d54f7e-330d-44e9-b214-69204deb8a1e.png)
+
+
 Pour lancer le script il suffit de faire cette commande en se situant dans le même répertoire que le script:
  ```
  python3 traceroute.py [fichier source] [fichier de sortie] (options)
+ ```
+ 
+ Sinon, il est aussi possible de lancer le script en utilisant le fichier "traceroute" et en exécutant la commande:
+ ```
+ ./traceroute [fichier source] [fichier de sortie] (options)
  ```
  
 Plusieurs options sont à disposition, les voici:
